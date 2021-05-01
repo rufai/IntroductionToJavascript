@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h2>This file links JS in-line</h2>
+    </body>
+    <script>
+        let y = 5
+        console.log(y)
+
+        // conditional
+        // if statement
+        /***
+         *  if ( condition == true ) {
+         *          do an action
+         * }
+         ***/
+         if ( 2 != 3 ){
+            console.log("Two is not equal to 3")    
+         }
+
+         // if - else statement
+         if ( 18 % 2 === 0 ){
+            console.log("This is an even number")
+         } else {
+            console.log("This is an odd number")
+         }
+
+         let name  = "Nwachukwu"
+         console.log(name)
+
+         let country  = "Ghana"
+         console.log(country)
+        
+         let h = 2
+         h = 3
+         // collect plenty data
+         // array and object
+         let k = []  // empty array
+        console.log( "size of array k : " + k.length )
+        
+        let countriesInAfrica = ["Nigeria", "Benin", "Ghana", "Kenya", "Congo", "Libya", "Togo", "Mali", "Barbon"]
+            // array of strings
+        let howManyCountries = countriesInAfrica.length
+        console.log("howManyCountries: " + howManyCountries)
+        console.table( countriesInAfrica )
+        console.log( "country in index 8 is : " + countriesInAfrica[8] )
+        countriesInAfrica[8] = "Gabon"
+        console.table( countriesInAfrica )
+
+
+         let agesOfOldPeople = [99, 72, 60, 98, 69, 112, 88, 124, 80, 79, 55, 99, 120,]
+            // array of integers
+            let howManyOldPeople = agesOfOldPeople.length
+            console.log("howManyOldPeople: " + howManyOldPeople)
+            console.table( agesOfOldPeople )
+            console.log( "age in index 5 is : " + agesOfOldPeople[5] )
+            agesOfOldPeople[2] = 30
+            console.table( agesOfOldPeople )
+
+
+
+    </script>
+</html>
