@@ -23,11 +23,11 @@ for( let i = 0; i < 100; i++) {
     // if ( i % 5 == 0) {
     //     console.log( `${i} is Gbos`)
     // }
-
+    
     if ( i % 3 == 0 && i % 5 == 0 ) {
         console.log( `${i} is GbasGbos`)
     }
-    else  if ( i % 3 == 0) {
+    else if ( i % 3 == 0) {
         console.log( `${i} is Gbas`)
     }
     else if ( i % 5 == 0) {
