@@ -31,6 +31,7 @@ for( let i = 0; i < 100; i++) {
         console.log( `${i} is Gbas`)
     }
     else if ( i % 5 == 0) {
-        console.log( `${i} is Gbos`)
+        console.log( `${i} is Gbos`) // string literals
+        console.log( i + " is Gbos" )
     }
 }
