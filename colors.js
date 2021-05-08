@@ -1,8 +1,10 @@
 let buttonElement = document.getElementById("gc")
 buttonElement.addEventListener("click", (e) => {
-    let bodyElement = document.body
-    bodyElement.style.color = generateRandomColor()
-    bodyElement.style.backgroundColor = generateRandomColor()
+    setInterval( () => { 
+        let bodyElement = document.body
+        bodyElement.style.color = generateRandomColor()
+        bodyElement.style.backgroundColor = generateRandomColor()
+    }, 10000 )
 })
 
 function generateRandomColor() {
