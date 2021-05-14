@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: wheat;
+}
+#search_bar{
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}

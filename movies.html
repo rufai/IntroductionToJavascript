@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Coming Soon Movies </title>
+        <link rel="stylesheet" href="./movies.css">
+    </head>
+    <body>
+        <h1>Slider Coming Soon Movies</h1>
+        <div id="search_bar">
+            <form>
+                <input
+                    type="search"
+                    placeholder="Search by Genre"
+                    id="movie_search_genre"
+                    autofocus />
+            </form>
+            <section>
+                <ol id="movie_list">
+
+                </ol>
+            </section>
+        </div>
+
+        <div class="container">
+            <button class="navigation_button" id="previous_movie">Previous</button>
+            <p id="movie_title"></p>
+            <p id="movie_position"></p>
+            <img src="" id="movie_poster" />
+            <p id="movie_summary"></p>
+            <button class="navigation_button" id="next_movie">Next</button>
+        </div>
+    </body>
+    <script src="./movies.js"></script>
+</html>
